@@ -1,0 +1,15 @@
+label {
+    display: table-cell;
+}
+
+input {
+    width: 200px;
+    clear: both;
+    margin-bottom: 15px;
+    background-color: azure;
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+}
