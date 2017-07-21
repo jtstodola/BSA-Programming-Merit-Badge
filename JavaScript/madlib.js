@@ -1,31 +1,23 @@
 function madlib() {
-    var form =          document.getElementById('myForm');
+    var inputs = document.querySelectorAll("input[type=text], input[type=number]")
+    var input_values = new Array;
     var span = document.getElementById('madlib');
     
-    var adjective1 =    document.getElementsByName('adjective1')[0].value;
-    var adjective2 =    document.getElementsByName('adjective2')[0].value;
-    var adjective3 =    document.getElementsByName('adjective3')[0].value;
-    var adjective4 =    document.getElementsByName('adjective4')[0].value;
-    var nationality =   document.getElementsByName('nationality')[0].value;
-    var person =        document.getElementsByName('person')[0].value;
-    var noun1 =         document.getElementsByName('noun1')[0].value;
-    var noun2 =         document.getElementsByName('noun2')[0].value;
-    var noun3 =         document.getElementsByName('noun3')[0].value;
-    var plural_noun =   document.getElementsByName('plural_noun')[0].value;
-    var number1 =       document.getElementsByName('number1')[0].value;
-    var number2 =       document.getElementsByName('number2')[0].value;
-    var shape =         document.getElementsByName('shape')[0].value;
-    var food1 =         document.getElementsByName('food1')[0].value;
-    var food2 =         document.getElementsByName('food2')[0].value;
+    for (var i = 0; i < inputs.length; i++) {
+        input_values.push(inputs[i].value);
+    }
+    console.log(input_values);
     
-    madlib =    'Pizza was invented by a ' + adjective1 + ' ' + nationality + 
-                ' chef named ' + person + '. To make a pizza, you need to take a lump of ' + noun1 + 
-                ', and make a thin, round ' + adjective2 + ' ' + noun2 + 
-                '. Then you cover it with ' + adjective3 + ' sauce '  + adjective4 + 
-                ' cheese, and freshly chopped '  + plural_noun + '. When it is done, cut it into '  + shape +
-                's. Some kids like ' + food1 + ' pizza the best, but my favorite is the ' + food2 + 
-                ' pizza. If I could, I would eat pizza ' + number2 + ' times a day!';
-    
+    madlib =    'Pizza was invented by a ' + input_values[0] + ' ' + input_values[1] + 
+                ' chef named ' + input_values[2] + '. To make a pizza, you need to take a lump of ' 
+                + input_values[3] + ', and make a thin, round ' + input_values[4] + ' ' 
+                + input_values[5] + '. Then you cover it with ' + input_values[6] + ' sauce, '  
+                + input_values[7] + ' cheese, and freshly chopped '  + input_values[8] 
+                + '. When it is done, cut it into ' + input_values[9] + ' ' + input_values[10] 
+                + '. Some kids like ' + input_values[11] + ' pizza the best, but my favorite is the ' 
+                + input_values[12] +  ' pizza. If I could, I would eat pizza ' + input_values[13] 
+                + ' times a day!';
+
     span.textContent = madlib;
 }
 
