@@ -12,9 +12,9 @@ adjective3  = raw_input("Enter a third adjective: ")
 adjective4  = raw_input("Enter a fourth adjective: ")
 plural_noun = raw_input("Enter a plural noun: ")
 noun3       = raw_input("Enter a third noun: ")
-
-is_a_number = True
 number1     = raw_input("Enter a number: ")
+is_a_number = True
+
 if number1.isdigit() == False:
   is_a_number = False
   while is_a_number == False:
