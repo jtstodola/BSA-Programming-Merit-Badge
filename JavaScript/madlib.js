@@ -1,6 +1,6 @@
 function madlib() {
     var inputs = document.querySelectorAll("input[type=text], input[type=number]");
-    var input_values = new Array;
+    var input_values = [];
     var text = document.getElementById('madlib_text');
 
     for (var i = 0; i < inputs.length; i++) {
