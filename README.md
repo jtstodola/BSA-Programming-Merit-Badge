@@ -2,7 +2,7 @@
 PowerPoint Slideshow, JavaScript code sample, and Python code sample
 
 ## PowerPoint Slideshow:
-* ordered slides related to all requirements except 5a-d
+* Slides and notes for all merit badge requirements except 5a-d
 
 ## JavaScript:
 This is a basic program written in JavaScript that gives examples of:
