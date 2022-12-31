@@ -5,7 +5,7 @@ PowerPoint Slideshows, Documentation, JavaScript Code Samples, and Python Code S
 * Slides and notes for all merit badge requirements except 5a-d
 * Slides with basic programming concepts in C#, JavaScript, and Scratch
 
-## Documentation 
+## Documentation:
 * Current badge requirements
 * Intro to HTML
 * Examples of how to code a number guessing game in Scratch and Python
